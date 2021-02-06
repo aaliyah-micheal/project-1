@@ -1,0 +1,12 @@
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  border-bottom: 2px solid #F8FB05;
+}
