@@ -1,12 +1,55 @@
+header {
+	background-image: url("../assets/header-home.jpg");
+	background-size: contain ;
+	height: 90vh;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+header img {
+	scale: 0.9;
+	position: relative;
+	left: -50px;
+	top: -40px;
+}
+
 nav li {
 	display: inline;
 	list-style: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 2rem;
+	letter-spacing: .14rem;
+	line-height: 2.9rem;
+	padding: 20px;
+		
 }
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
 
 nav a {
 	text-decoration: none;
+	color: black;
 }
 
 nav li:hover {
 	border-bottom: 2px solid #F8FB05;
+}
+
+/* font-family: 'Kumar One Outline', cursive;
+	font-family: 'Lato', sans-serif; */
+
+h1 {
+	font-family: 'Kumar One Outline', cursive;
+	font-size: 6.8rem;
+	color: black;
+	line-height: 6.4rem;
+	font-weight: normal;
+	width: 100px;
+	margin-left: 260px;
+	text-transform: uppercase;
 }
