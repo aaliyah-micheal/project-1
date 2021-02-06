@@ -387,7 +387,7 @@ h1 {
 
 .customized-offers::before {
   font-family: "FontAwesome";
-  content: '\f0c0';
+  content: '\f015';
   font-size: 20px;
   border-radius: 50%;
   background-color: #ff0;
@@ -405,8 +405,10 @@ h1 {
 
 .blog::before {
   font-family: "FontAwesome";
-  content: '\f0c0';
+  content: '\f15b';
   font-size: 20px;
+  font-weight: bolder;
+  color: black;
   border-radius: 50%;
   background-color: #ff0;
   border: 10px solid #ff0;
@@ -414,7 +416,7 @@ h1 {
 
 .get-in-touch::before {
   font-family: "FontAwesome";
-  content: '\f0c0';
+  content: '\f095';
   font-size: 20px;
   border-radius: 50%;
   background-color: #ff0;
