@@ -261,14 +261,13 @@ footer p {
   color: white;
 }
 
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
+/*.wrapper {
+    width: 80%;
+	margin: 0 auto;
+	
+} */
 html {
   font-size: 62.5%;
-  background-color: #f5f5f5;
 }
 
 header {
@@ -303,9 +302,10 @@ h1 {
   display: flex;
   padding-top: 200px;
   padding-bottom: 100px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #f5f5f5;
 }
 
 .discover-text {
@@ -352,4 +352,23 @@ h1 {
   scale: 0.8;
   -webkit-box-shadow: -20px 20px 0 #ff0;
           box-shadow: -20px 20px 0 #ff0;
+}
+
+/*GALLERY SECTION*/
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  background-color: #E0FDDF;
+  padding: 100px 0 100px;
+}
+
+.gallery img {
+  display: inline-block;
+  scale: 0.9;
 }
