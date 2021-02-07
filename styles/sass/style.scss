@@ -76,7 +76,7 @@ h1 {
 	line-height: 25px;
 }
 
-.discover-button {
+.button {
 	font-family: 'Kumar One', cursive;
 	font-size: 2rem;
 	letter-spacing: 1px;
@@ -88,7 +88,7 @@ h1 {
 	text-align: left;
 }
 
-.discover-button a {
+.button a {
 	background-color: #065635;
 	font-family: 'Kumar One', cursive;
 	color: white;
@@ -181,4 +181,57 @@ h1 {
 	line-height: 25px;  
 }
 
+.learn-more {
+    background-color: #E0FDDF;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
+.learn-more h2 {
+    font-family: 'Kumar One', cursive;
+	font-size: 2.3rem;
+	line-height: 58px;
+	letter-spacing: 2.1px;
+	text-transform: uppercase;
+
+}
+
+.learn-more p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 1.6rem;
+	line-height: 25px;  
+
+}
+
+.left-image {
+    box-shadow: 20px 20px 0 #ff0;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.right-image {
+    box-shadow: -20px 20px 0 #ff0;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.location {
+    width: 100%;
+    text-align: right;
+}
+
+.location h2 {
+    margin-right: 50px;
+}
+
+.location p {
+    margin-left: 70px;
+
+}
+
+.location-button a {
+    margin-left: 77%;
+}
