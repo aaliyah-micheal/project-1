@@ -18,6 +18,10 @@ html {
 	font-size: 62.5%;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 // MAIN HEADER
 
 header {
@@ -116,11 +120,13 @@ h1 {
     scale: 0.8;
 }
 
+// ABOUT SECTION
+
 .about {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    gap: 30px;
+    gap: 0;
     background-color: #f5f5f5;
     padding: 100px;
 }
@@ -171,68 +177,153 @@ h1 {
 	line-height: 58px;
 	letter-spacing: 2.1px;
 	text-transform: uppercase;
+	margin-bottom: 0;
 }
 
 .about p {
-    width: 650px;
+    width: 450px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	font-size: 1.6rem;
-	line-height: 25px;  
+	line-height: 25px; 
+	padding-left: 45px;
+	margin-top: 0;
 }
+
+// LEARN MORE SECTION
 
 .learn-more {
     background-color: #E0FDDF;
     display: grid;
-    grid-template-columns: 50% 50%;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 320px 320px;
     
 }
 
-.learn-more h2 {
+.programs {
+	width: 450px;
+	margin-left: 15px;
+}
+
+.programs h2 {
     font-family: 'Kumar One', cursive;
 	font-size: 2.3rem;
 	line-height: 58px;
 	letter-spacing: 2.1px;
 	text-transform: uppercase;
+	margin-left: 20%;
+	margin-top: 70px;
+	margin-bottom: 0;
 
 }
 
-.learn-more p {
+.programs p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	font-size: 1.6rem;
 	line-height: 25px;  
+	margin-left: 20%;
+	margin-top: 0;
 
 }
 
 .left-image {
     box-shadow: 20px 20px 0 #ff0;
     position: relative;
-    bottom: 30px;
+	bottom: 63px;
+	right: 70px;
+	scale: 0.8;
 
 }
 
 .right-image {
     box-shadow: -20px 20px 0 #ff0;
     position: relative;
-    top: 50px;
-    left: 50px;
+	top: -20px;
+	left: 38px;
+	scale: 0.8;
 }
 
 .location {
-    width: 100%;
-    text-align: right;
+    // width: 100%;
+	text-align: right;
+	margin-left: 200px;
+	width: 350px;
 }
 
 .location h2 {
-    margin-right: 50px;
+	font-family: 'Kumar One', cursive;
+	font-size: 2.3rem;
+	line-height: 58px;
+	letter-spacing: 2.1px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 70px;
 }
 
 .location p {
-    margin-left: 70px;
-
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 1.6rem;
+	line-height: 25px; 
+	margin-top: 0;
 }
 
-.location-button a {
-    margin-left: 77%;
+.location-button {
+	text-align: right;
+}
+
+
+.style img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: top;
+}
+
+.search {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.style-text {
+	width: 700px;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 1.6rem;
+	line-height: 25px;
+	margin-top: 0;  
+	padding-bottom: 5px;
+}
+
+.style h2 {
+	font-family: 'Kumar One', cursive;
+	font-size: 2.3rem;
+	line-height: 58px;
+	letter-spacing: 2.1px;
+	text-transform: uppercase;
+	padding-top: 100px;
+	margin: 0;
+}
+
+.style .button {
+	margin-bottom: 100px;
+	font-size: 1.5rem;
+}
+
+.style a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+// FOOTER
+
+footer p{
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	padding-bottom: 10px;;
 }
