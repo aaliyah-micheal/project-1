@@ -13,7 +13,7 @@
 
 <body>
 	<header class="contact-header">
-		<h3>Sanctuary Helpers</h3>
+		<h3 class="header-logo">Sanctuary Helpers</h3>
 		<div>
 			<nav>
 				<ul>
@@ -24,34 +24,40 @@
 				</ul>
 			</nav>
 		</div>
-		<h1>Contact</h1>
+		<h1>Get In Touch</h1>
 	</header>
-	<section>
-		<form action="">
-			<label for="name" class="sr-only">Name</label>
-			<input type="text" placeholder="Name" id="name" name="name" class="name">
-			<label for="email" class="sr-only">Email Address</label>
-			<input type="email" placeholder="Email Address" id="email" name="email" class="email">
+	<section class="contact-section">
+		<form class="contact-form">
+			<div class="user-information">
+				<label for="name" class="sr-only">Name</label>
+				<input type="text" placeholder="Name" id="name" name="name" class="name">
+				<label for="email" class="sr-only">Email Address</label>
+				<input type="email" placeholder="Email Address" id="email" name="email" class="email">
+			</div>
 			<label for="message" class="sr-only">Message</label>
-			<textarea id="message" name="message" cols="30" rows="10" placeholder="Message"></textarea>
+			<textarea id="message" name="message" cols="30" rows="10" placeholder="message"></textarea>
 			<button type="submit">Submit</button>
 		</form>
-		<div>
+		<div class="social-contact">
 			<div>
-				<i class="fab fa-facebook-f"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-twitter"></i>
-				<i class="fab fa-whatsapp"></i>
+				<a><i class="fab fa-facebook-f"></i></a>
+				<a><i class="fab fa-instagram"></i></a>
+				<a><i class="fab fa-twitter"></i></a>
+				<a><i class="fab fa-whatsapp"></i></a>
+			</div>
+			<div class="social-email">
+				<p> info@email.com</p>
 			</div>
 			<div>
-				<p>Lorem ipsum dolor sit amet.</p>
-			</div>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut pariatur esse at odio voluptas laudantium?</p>
+				<p>123 - 456 - 7890</p>
+				<p>123 Queen Steet West,</p>
+				<p>Unit 10</p>
+				<p>Toronto, Ontario</p>
+				<p>M5V2D5</p>
 			</div>
 		</div>
 	</section>
-	<footer>
+	<footer class="blog-footer">
 		<p>Copyright 2021 Juno College</p>
 	</footer>
 
