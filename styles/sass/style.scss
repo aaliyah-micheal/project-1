@@ -9,6 +9,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 @import "footer";
 @import "blog";
 @import "contact";
+@import "mediaquery";
 
 /*.wrapper {
     width: 80%;
@@ -357,4 +358,189 @@ footer p{
 	font-size: 1.5rem;
 	letter-spacing: 1px;
 	padding-bottom: 10px;;
+}
+
+
+// MEDIA QUERY - INDEX
+
+
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+
+body {
+	overflow-x: hidden;
+}	
+
+header img {
+	visibility: hidden;
+}	
+
+nav {
+	margin: 0;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+nav li {
+	font-size: 1.5rem;
+	padding: 5px;
+}
+
+nav ul {
+	padding: 0;
+}
+
+header {
+	height: 30vh;
+}
+
+h1 {
+	margin: 0;
+	font-size: 4rem;
+	line-height: 3.7rem;
+	margin-top: 140px;
+	text-align: center;
+	width: auto;
+}
+
+.discover {
+	padding-top: 20px;
+	flex-direction: column;
+}
+
+.discover-text h2 {
+	text-align: center;
+	line-height: 30px;
+	padding-top: 50px;
+}
+
+.discover-text p {
+	width: 75%;
+	text-align: center;
+	margin-left: 45px;
+}
+
+.discover img {
+	margin-left: 30px;
+}
+
+.gallery {
+	flex-direction: column;
+	justify-content: center;
+	padding: 0;
+	padding-bottom: 50px;
+}
+
+.gallery img:last-of-type {
+	display: none;
+}
+
+.gallery img {
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+.about {
+	padding: 0;
+	grid-template-columns: 100%;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about p{
+	display: none;
+}
+
+.about h2 {
+	font-size: 1.5rem;
+}
+
+.learn-more {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.programs {
+	width: 100%;
+}
+
+.programs h2 {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	padding-top: 20px;
+}
+
+.programs p {
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+}
+
+.location {
+	width: 100%;
+	margin: 0;
+}
+
+.location h2 {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+
+.location p {
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+}
+
+.learn-more p {
+	padding-bottom: 30px;
+}
+
+.left-image {
+	scale: 1;
+	max-width: 100%;
+	top: 0;
+	right: 0;
+	margin: 0 auto;
+	box-shadow: none;
+}
+
+.right-image {
+	scale: 1;
+	max-width: 100%;
+	top: 4px;
+	left: 0;
+	margin: 0 auto;
+	box-shadow: none;
+	}
+
+.style {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.style h2 {
+	padding-top: 50px;
+}
+
+.search {
+	width: 100%;
+	height: 450px;
+}
+
+.style-text {
+	width: 90%;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 0;
+	font-size: 1rem;
+}
 }
