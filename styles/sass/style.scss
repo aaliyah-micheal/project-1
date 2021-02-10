@@ -116,15 +116,14 @@ h1 {
     justify-content: space-around;
     flex-wrap: nowrap;
     background-color: #E0FDDF;
-    padding: 200px 60px;
+    padding: 200px 168px;
 	margin: 0;
 }
 
 .gallery img {
     display: inline-block;
-    //height: 300;
-	//width: 300;
 	object-fit: contain;
+	max-width: 325px;
 }
 
 // ABOUT SECTION
@@ -139,14 +138,27 @@ h1 {
 }
 
 
-
 .customized-offers::before {
-    font-family: "FontAwesome";
+   font-family: "FontAwesome";
    content: '\f015'; 
    font-size: 20px;
-   border-radius: 50%;
+   //position: relative;
+   //border-radius: 50%;
+  // background-color: #ff0;
+  // border: 10px solid #ff0;
+}
+
+.customized-offers::after {
+    font-family: "FontAwesome";
+   content: '\f111'; 
+   font-size: 20px;
+   color: #ff0;
+   position: relative;
+   top: 8px;
+   left: -362px;
    background-color: #ff0;
-   border: 10px solid #ff0;
+   border-radius: 50%;
+
 }
 
 .community::before {
