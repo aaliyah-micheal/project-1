@@ -13,6 +13,7 @@ nav li {
 nav {
 	display: flex;
 	justify-content: flex-end;
+	margin-right:100px;
 }
 
 
@@ -21,8 +22,9 @@ nav a {
 	color: black;
 }
 
-nav li:hover {
+nav a:hover {
 	border-bottom: 2px solid #F8FB05;
+	padding-bottom: 0;
 }
 
 
