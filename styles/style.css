@@ -810,48 +810,53 @@ h1 {
 .customized-offers::before {
   font-family: "FontAwesome";
   content: '\f015';
-  font-size: 20px;
-}
-
-.customized-offers::after {
-  font-family: "FontAwesome";
-  content: '\f111';
-  font-size: 20px;
-  color: #ff0;
-  position: relative;
-  top: 8px;
-  left: -362px;
-  background-color: #ff0;
   border-radius: 50%;
+  background-color: #ff0;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  position: relative;
+  left: -15px;
 }
 
 .community::before {
   font-family: "FontAwesome";
   content: '\f0c0';
-  font-size: 20px;
   border-radius: 50%;
   background-color: #ff0;
-  border: 10px solid #ff0;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  position: relative;
+  left: -15px;
 }
 
 .blog::before {
   font-family: "FontAwesome";
   content: '\f15b';
-  font-size: 20px;
-  font-weight: bolder;
-  color: black;
   border-radius: 50%;
   background-color: #ff0;
-  border: 10px solid #ff0;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  position: relative;
+  left: -15px;
 }
 
 .get-in-touch::before {
   font-family: "FontAwesome";
   content: '\f095';
-  font-size: 20px;
   border-radius: 50%;
   background-color: #ff0;
-  border: 10px solid #ff0;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  position: relative;
+  left: -15px;
 }
 
 .about h2 {
@@ -869,7 +874,7 @@ h1 {
   font-weight: 100;
   font-size: 1.6rem;
   line-height: 25px;
-  padding-left: 45px;
+  padding-left: 50px;
   margin-top: 0;
 }
 
