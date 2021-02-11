@@ -453,6 +453,7 @@ h1 {
 .about {
 	padding: 0;
 	grid-template-columns: 80%;
+	grid-template-rows: 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	
@@ -465,7 +466,7 @@ h1 {
 .about h2 {
 	font-size: 1.5rem;
 	width: 100%;
-	margin: 0 auto;
+	margin-left: 25%;
 }
 
 //LEARN MORE SECTION
