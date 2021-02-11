@@ -559,9 +559,9 @@ h1 {
 
 .header-logo {
 	text-align: center;
-	padding-top: 70px;
 	width: 100%;
-	margin: 0;
+	//margin-top: 70px;
+	margin: 40px auto 0;
 }
 
 .blog-header {
@@ -575,12 +575,12 @@ h1 {
 	width: 100%;
 	padding: 100px 0;
 	position: relative;
-	top: 90px;
+	top: 100px;
 	
 }
 
 .blog-content {
-	margin-bottom: 500px;
+	height: auto;
 }
 
 .blog-content-container {
@@ -660,7 +660,38 @@ h1 {
 
 .comment-section {
 	margin: 0;
+	padding: 0;
+	width: 100%;
 }
+.comment-section h3 {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.comment-flex {
+	width: 80%;
+	margin: 0 auto;
+}
+
+form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+input { 
+	width: 140px;
+	//padding: 10px;
+	padding-left: 10px;
+	
+}
+
+input::placeholder, textarea::placeholder {
+	font-size: 1.3rem;
+	
+}
+
+
 
 //FOOTER
 
