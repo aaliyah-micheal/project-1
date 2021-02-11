@@ -466,6 +466,7 @@ h1 {
 
 .about h2 {
 	font-size: 1.5rem;
+	width: 100%;
 }
 
 //LEARN MORE SECTION
@@ -688,6 +689,17 @@ input {
 
 input::placeholder, textarea::placeholder {
 	font-size: 1.3rem;
+	
+}
+
+//CONTACT
+
+.contact-header h1 {
+	margin: 0;
+	width: 100%;
+	padding: 100px 0;
+	position: relative;
+	top: 0;
 	
 }
 

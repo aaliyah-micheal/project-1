@@ -1108,6 +1108,7 @@ footer p {
   }
   .about h2 {
     font-size: 1.5rem;
+    width: 100%;
   }
   .learn-more {
     display: -webkit-box;
@@ -1316,6 +1317,13 @@ footer p {
   }
   input::placeholder, textarea::placeholder {
     font-size: 1.3rem;
+  }
+  .contact-header h1 {
+    margin: 0;
+    width: 100%;
+    padding: 100px 0;
+    position: relative;
+    top: 0;
   }
   footer p {
     margin-top: 0;
