@@ -454,8 +454,7 @@ h1 {
 
 .about {
 	padding: 0;
-	grid-template-columns: 100%;
-	padding-left: 50px;
+	grid-template-columns: 80%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -479,6 +478,7 @@ h1 {
 
 .programs {
 	width: 100%;
+	margin: 0;
 }
 
 .programs h2 {
@@ -694,15 +694,50 @@ input::placeholder, textarea::placeholder {
 
 //CONTACT
 
+.contact-section {
+	padding-top: 30px;
+}
+
+.contact-header {
+	height: 30vh;
+}
 .contact-header h1 {
 	margin: 0;
 	width: 100%;
-	padding: 100px 0;
+	padding: 60px 0;
 	position: relative;
-	top: 0;
+	top: 0;	
 	
 }
 
+.contact-form {
+	position: static;
+	width: 70%;
+}
+
+.contact-form input { 
+	width: 150px;
+	//padding: 10px;
+	padding-left: 10px;
+	
+}
+
+.social-contact {
+	position: sticky;
+	width: 50%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.social-contact i {
+	padding: 10px 25px;
+	margin: 0 15px;
+	display: inline-block;
+}
+
+.social-contact p {
+	margin: 10px 20px;
+}
 
 
 //FOOTER
