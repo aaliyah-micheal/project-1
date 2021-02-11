@@ -22,7 +22,7 @@ nav a {
 	color: black;
 }
 
-nav a:hover {
+nav a:hover, a:focus, a:active {
 	border-bottom: 2px solid #F8FB05;
 	padding-bottom: 0;
 }
