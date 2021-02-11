@@ -1192,6 +1192,100 @@ footer p {
     width: 90%;
     text-align: center;
   }
+  .header-logo {
+    text-align: center;
+    padding-top: 70px;
+    width: 100%;
+    margin: 0;
+  }
+  .blog-header {
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  .blog-header h1 {
+    margin: 0;
+    width: 100%;
+    padding: 100px 0;
+    position: relative;
+    top: 90px;
+  }
+  .blog-content {
+    margin-bottom: 500px;
+  }
+  .blog-content-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .left-content, .right-content {
+    width: 100%;
+  }
+  .left-content, .left-content-container {
+    position: static;
+  }
+  .left-content {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-bottom: 20px solid #ff0;
+  }
+  .left-content-text {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .left-content-text h2 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content-date {
+    margin: 0 60px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .right-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding-bottom: 30px;
+  }
+  .right-content h3 {
+    padding: 0;
+  }
+  .right-content-text {
+    padding: 10px 0 30px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .right-content-text p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .right-content-text ul {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .right-image-container {
+    display: none;
+  }
+  .comment-section {
+    margin: 0;
+  }
   footer p {
     margin-top: 0;
     font-size: 1rem;
