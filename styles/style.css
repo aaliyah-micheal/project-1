@@ -802,9 +802,9 @@ h1 {
       grid-template-columns: 50% 50%;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
-  gap: 0;
+  gap: 50px;
   background-color: #f5f5f5;
-  padding: 100px 200px;
+  padding: 100px 100px;
 }
 
 .customized-offers::before {
