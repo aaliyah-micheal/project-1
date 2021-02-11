@@ -350,8 +350,8 @@ footer p {
 .left-content {
   width: 60%;
   background-color: white;
-  -webkit-box-shadow: 20px 20px 0 #ff0;
-          box-shadow: 20px 20px 0 #ff0;
+  -webkit-box-shadow: 20px 20px 0 #F8FB05;
+          box-shadow: 20px 20px 0 #F8FB05;
   position: relative;
   top: -140px;
 }
@@ -365,9 +365,9 @@ footer p {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  background-color: #ff0;
-  -webkit-box-shadow: 0px 20px 0 #ff0;
-          box-shadow: 0px 20px 0 #ff0;
+  background-color: #F8FB05;
+  -webkit-box-shadow: 0px 20px 0 #F8FB05;
+          box-shadow: 0px 20px 0 #F8FB05;
   padding: 0;
 }
 
@@ -405,17 +405,17 @@ footer p {
      object-fit: contain;
   display: block;
   margin-left: auto;
-  background-color: #ff0;
-  -webkit-box-shadow: -20px 20px 0 #ff0;
-          box-shadow: -20px 20px 0 #ff0;
+  background-color: #F8FB05;
+  -webkit-box-shadow: -20px 20px 0 #F8FB05;
+          box-shadow: -20px 20px 0 #F8FB05;
 }
 
 .right-content-text {
-  background-color: #ff0;
+  background-color: #F8FB05;
   width: 70%;
   margin-left: auto;
-  -webkit-box-shadow: -20px 0 0 #ff0;
-          box-shadow: -20px 0 0 #ff0;
+  -webkit-box-shadow: -20px 0 0 #F8FB05;
+          box-shadow: -20px 0 0 #F8FB05;
   padding-bottom: 15px;
 }
 
@@ -623,8 +623,8 @@ form {
   width: 550px;
   padding: 50px;
   padding-bottom: 0;
-  -webkit-box-shadow: 20px 20px 0 #ff0;
-          box-shadow: 20px 20px 0 #ff0;
+  -webkit-box-shadow: 20px 20px 0 #F8FB05;
+          box-shadow: 20px 20px 0 #F8FB05;
 }
 
 .contact-form input {
@@ -770,8 +770,8 @@ h1 {
 
 .discover img {
   scale: 0.8;
-  -webkit-box-shadow: -20px 20px 0 #ff0;
-          box-shadow: -20px 20px 0 #ff0;
+  -webkit-box-shadow: -20px 20px 0 #F8FB05;
+          box-shadow: -20px 20px 0 #F8FB05;
 }
 
 /*GALLERY SECTION*/
@@ -811,7 +811,7 @@ h1 {
   font-family: "FontAwesome";
   content: '\f015';
   border-radius: 50%;
-  background-color: #ff0;
+  background-color: #F8FB05;
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -824,7 +824,7 @@ h1 {
   font-family: "FontAwesome";
   content: '\f0c0';
   border-radius: 50%;
-  background-color: #ff0;
+  background-color: #F8FB05;
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -837,7 +837,7 @@ h1 {
   font-family: "FontAwesome";
   content: '\f15b';
   border-radius: 50%;
-  background-color: #ff0;
+  background-color: #F8FB05;
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -850,7 +850,7 @@ h1 {
   font-family: "FontAwesome";
   content: '\f095';
   border-radius: 50%;
-  background-color: #ff0;
+  background-color: #F8FB05;
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -915,8 +915,8 @@ h1 {
 }
 
 .left-image {
-  -webkit-box-shadow: 20px 20px 0 #ff0;
-          box-shadow: 20px 20px 0 #ff0;
+  -webkit-box-shadow: 20px 20px 0 #F8FB05;
+          box-shadow: 20px 20px 0 #F8FB05;
   position: relative;
   bottom: 63px;
   right: 70px;
@@ -924,8 +924,8 @@ h1 {
 }
 
 .right-image {
-  -webkit-box-shadow: -20px 20px 0 #ff0;
-          box-shadow: -20px 20px 0 #ff0;
+  -webkit-box-shadow: -20px 20px 0 #F8FB05;
+          box-shadow: -20px 20px 0 #F8FB05;
   position: relative;
   top: -20px;
   left: 38px;
@@ -1022,8 +1022,9 @@ footer p {
 }
 
 @media (max-width: 768px) {
-  body {
-    overflow-x: hidden;
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
   }
   header img {
     visibility: hidden;
@@ -1232,7 +1233,7 @@ footer p {
   .left-content {
     -webkit-box-shadow: none;
             box-shadow: none;
-    border-bottom: 20px solid #ff0;
+    border-bottom: 20px solid #F8FB05;
   }
   .left-content-text {
     padding: 0;
@@ -1333,16 +1334,16 @@ footer p {
   }
   .contact-form {
     position: static;
-    width: 70%;
+    width: 50%;
   }
   .contact-form input {
-    width: 150px;
+    width: 100px;
     padding-left: 10px;
   }
   .social-contact {
     position: -webkit-sticky;
     position: sticky;
-    width: 50%;
+    width: 80%;
     margin: 20px auto;
     text-align: center;
   }
