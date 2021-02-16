@@ -5,6 +5,7 @@
 	display: block;
 	background-repeat: no-repeat;
     background-position: bottom;
+    position: relative;
 }
 
 .header-logo {
@@ -21,8 +22,9 @@
 }
 
 .contact-header h1 {
-    margin-left: 150px;
-    margin-top: 110px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
     width: auto;
 }
 

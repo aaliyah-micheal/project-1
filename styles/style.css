@@ -218,35 +218,88 @@ template {
 
 /* font-family: 'Kumar One Outline', cursive;
 	font-family: 'Lato', sans-serif; */
-nav li {
-  display: inline;
-  list-style: none;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
-  letter-spacing: .14rem;
-  line-height: 2.9rem;
-  padding: 20px;
+.hamburger-menu {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  font-size: 3rem;
+  z-index: 10;
+  color: black;
+  cursor: pointer;
 }
 
-nav {
+.nav-list {
+  margin: 10px 10px 0 0;
+  padding: 0;
+  width: 300px;
+  height: 240px;
+  background-color: rgba(6, 86, 53, 0.5);
+  position: fixed;
+  top: 0;
+  right: -400px;
+  z-index: 9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-right: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0 0 0 90px;
+  -webkit-box-shadow: -5px 5px 0 #F8FB05;
+          box-shadow: -5px 5px 0 #F8FB05;
+  -webkit-transition: right 0.5s ease-in;
+  transition: right 0.5s ease-in;
+}
+
+.toggle {
+  right: 0;
+}
+
+nav li {
+  font-size: 2rem;
+  list-style: none;
+}
+
+nav li:first-of-type {
+  margin-top: 10px;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-family: 'Kumar One', sans-serif;
+  padding: 0 10px;
+  position: relative;
 }
 
-nav a:hover, a:focus, a:active {
-  border-bottom: 2px solid #F8FB05;
-  padding-bottom: 0;
+nav a::after {
+  display: block;
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #F8FB05;
+  bottom: 0;
+  margin-top: 2px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: -webkit-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+}
+
+nav a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
 
 footer {
@@ -290,8 +343,9 @@ footer p {
 }
 
 .blog-header h1 {
-  margin-left: 150px;
-  margin-top: 140px;
+  position: absolute;
+  top: 175px;
+  left: 150px;
 }
 
 .blog-content {
@@ -593,6 +647,7 @@ form {
   display: block;
   background-repeat: no-repeat;
   background-position: bottom;
+  position: relative;
 }
 
 .header-logo {
@@ -609,8 +664,9 @@ form {
 }
 
 .contact-header h1 {
-  margin-left: 150px;
-  margin-top: 110px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
   width: auto;
 }
 
@@ -696,31 +752,34 @@ header {
   display: block;
   background-repeat: no-repeat;
   background-color: #f5f5f5;
+  position: relative;
 }
 
 header img {
-  scale: 0.9;
-  position: relative;
-  left: -50px;
-  top: -40px;
+  scale: 0.8;
+  position: absolute;
+  left: -90px;
+  top: 170px;
 }
 
 h1 {
   font-family: 'Kumar One Outline', cursive;
-  font-size: 6.8rem;
+  font-size: 5.8rem;
   color: black;
-  line-height: 6.4rem;
+  line-height: 5.8rem;
   font-weight: normal;
   width: 100px;
-  margin-left: 260px;
   text-transform: uppercase;
+  position: absolute;
+  left: 240px;
+  top: 50px;
 }
 
 .discover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 175px;
+  padding-top: 90px;
   padding-bottom: 100px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -738,6 +797,7 @@ h1 {
   line-height: 58px;
   letter-spacing: 2.1px;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .discover-text p {
